@@ -24,8 +24,8 @@ const FaButton = (props) => {
 const myStyles = {
   button: {
     alignSelf: "center",
-    backgroundColor: "#3343f2",
-    marginLeft: 5,
+    backgroundColor: 'biege',
+         marginLeft: 5,
     marginRight: 5,
     marginBottom: 10,
     marginTop: 5,

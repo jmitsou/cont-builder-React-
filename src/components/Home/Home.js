@@ -2,6 +2,7 @@ import React from 'react';
 import Container from '../common/Container'
 import Splash from '../common/Splash';
 import splashImg from '../../Assets/splash1.avif';
+import FaButton from '../faCommon/FaButton';
 
 const Home = () => {
     return(   
@@ -14,13 +15,13 @@ const Home = () => {
             <div>
                 <h1>Make A Selection</h1>                                  
             </div>
-            <div style={{
-                margin :'0 20px',
-                color: "#f1f1f1",
-            }}>
-                <button>Create an Event</button>
-                <button>Create an Actor</button>
-                <button>Check Journal Entries</button>
+            <div>
+                <FaButton>View Journal Entries</FaButton>
+            </div>
+            <div>
+                <FaButton>Create an Event</FaButton>
+                <FaButton>Create an Actor</FaButton>
+                <FaButton>Create an Location</FaButton>
             </div>                    
             
 

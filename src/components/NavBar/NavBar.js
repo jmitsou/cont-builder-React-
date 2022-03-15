@@ -20,8 +20,9 @@ const NavBar = (prop) => {
                     fontFamily:"monospace",
                     fontWeight:"bold",
                     fontSize: '2.5em',
-                    margin: "0 20px"
-                }}>NavBar</h1>
+                    margin: "0 20px", 
+                    color: '#f1f1f1'
+                }}>Continuity Builder</h1>
                 <div style={{
                     margin: '0 20px',
                     flexDirection:'row',
@@ -30,7 +31,8 @@ const NavBar = (prop) => {
                     alignItems: 'center',
                 }}>
                    <NavButton to="/" label='Home'/>
-                   <NavButton to="/" label='Login'/> 
+                   <NavButton to="/login" label='Login'/>
+                   <NavButton to="/signup" label='Sign Up'/>  
                 </div>
                 
             </div>
