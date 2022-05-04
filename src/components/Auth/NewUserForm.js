@@ -16,6 +16,25 @@ const NewUserForm = ({onSubmit, onChange, newUser}) => {
         <Container >
             <Form onSubmit={onSubmit} style={{marginTop: '1em'}}>
             <InlineInputContainer>
+                <Input 
+                    name="fName"
+                    id="fName"
+                    value={newUser.fName}
+                    placeholder={"First Name"}
+                    onChange={handleChange}
+                    type="text"
+                  />
+                  
+                  <Input 
+                    name="lName"
+                    id="lName"
+                    value={newUser.lName}
+                    placeholder={"Last Name"}
+                    onChange={handleChange}
+                    type="text"
+                  />
+            </InlineInputContainer>
+            <InlineInputContainer>
             <Input 
                     name="email"
                     id="email"
@@ -35,25 +54,6 @@ const NewUserForm = ({onSubmit, onChange, newUser}) => {
                     onChange={handleChange}
                     type="password"
                     required
-                  />
-            </InlineInputContainer>
-            <InlineInputContainer>
-                <Input 
-                    name="fName"
-                    id="fName"
-                    value={newUser.fName}
-                    placeholder={"First Name"}
-                    onChange={handleChange}
-                    type="text"
-                  />
-                  
-                  <Input 
-                    name="lName"
-                    id="fName"
-                    value={newUser.fName}
-                    placeholder={"Last Name"}
-                    onChange={handleChange}
-                    type="text"
                   />
             </InlineInputContainer>
             <Button>Submit</Button>
