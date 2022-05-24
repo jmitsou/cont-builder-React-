@@ -15,7 +15,7 @@ const EventJournal = (props) => {
 				<h1 style={{
 					textShadow: '1px 2px #f1f1f1'
 
-				}}>Event Journal
+				}}>My Journals
 				</h1>
 
 			</Splash>
